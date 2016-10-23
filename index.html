@@ -10,6 +10,17 @@
     <!-- Bootstrap -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
+    <!-- Header Font -->
+    <link href="https://fonts.googleapis.com/css?family=Martel+Sans:400,700&amp;subset=devanagari,latin-ext" rel="stylesheet"> 
+
+    <!-- Content Font -->
+    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet"> 
+
+    <!-- Button/Link font -->
+    <link href="https://fonts.googleapis.com/css?family=Kalam:400,700&amp;subset=devanagari,latin-ext" rel="stylesheet"> 
+
+    <link href="css/style.css" rel="stylesheet">
+
     <!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
     <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
     <!--[if lt IE 9]>
@@ -18,11 +29,61 @@
     <![endif]-->
   </head>
   <body>
-    <h1>Hello, Pinky!</h1>
+    <div class="container-fluid viewContainer boxShadow">
+        <div class="row">
+          <aside class="col-lg-3 col-md-3 col-sm-3 col-xs-3 sidebar">
+            <div class="logo">
+              <img src="css/img/ps_logo.png" class="img-responsive vCenterAlign" alt="Pinky Samantaray">
+            </div>
+            <div class="text-center">
+              <div class="userName">
+                Pinky Samantaray
+              </div>
+              <div class="">
+                India
+              </div>
+            </div>
+            <ul class="list-group menuBar">
+                <li class="list-group-item">
+                  <a href="#"><i class="glyphicon glyphicon-home pull-right"></i>HOME</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"><i class="glyphicon glyphicon-info-sign pull-right"></i>ABOUT</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"><i class="glyphicon glyphicon-user pull-right"></i>PROFILE</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"><i class="glyphicon glyphicon-list-alt pull-right"></i>BLOG</a>
+                </li>
+                <li class="list-group-item">
+                  <a href="#"><i class="glyphicon glyphicon-envelope pull-right"></i>CONTACT ME</a>
+                </li>
+            </ul>
+          </aside>
+
+          <div class="col-lg-9 col-md-9 col-sm-9 col-xs-9 content">
+            <div class="innerContent text-center">
+            <span>
+              Coming Soon!!
+            </span>
+            </div>
+          </div>        
+        </div>
+
+        <div class="footerContainer">
+          <div class="col-lg-12 col-md-12 col-sm-12 col-xs-12 navbar-fixed-bottom">
+            <footer class="">&copy; All Rights Reserved. </footer>
+          </div>
+        </div>
+
+    </div>
 
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
     <!-- Include all compiled plugins (below), or include individual files as needed -->
     <script src="lib/bootstrap/js/bootstrap.min.js"></script>
+
+    <script type="text/javascript" src="js/main.js"></script>
   </body>
 </html>

@@ -1,0 +1,131 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	padding: 15px;
+}
+
+/* Helper Classes */
+.paddingZero {
+	padding: 0px !important;
+}
+
+.marginZero {
+	margin: 0px !important;
+}
+
+.vCenterAlign {
+	margin: 0 auto;
+}
+
+/* Container Classes */
+.viewContainer {
+	height: 100%;
+}
+.viewContainer .row, .viewContainer .row .sidebar, .viewContainer .row .content {
+	height: 100%;
+}
+
+/* Sidebar Section */
+.sidebar {
+	background: #303F9F;
+	color: #FFFFFF;
+	border-radius: 10px 0 0 0;	
+    box-shadow: 1px 2px 5px #BDBDBD;
+}
+
+.logo {
+	background: #fff;
+    border-radius: 10px;
+    margin: 10px 0;
+}
+
+.userName {
+	font-family: 'Martel Sans', sans-serif;
+}
+
+ul.menuBar {
+	margin-top: 20px;
+}
+
+ul.menuBar li {
+	background: #3F51B5;
+	border: none;
+}
+
+ul.menuBar li a {
+	color: #FFFFFF;
+	font-family: 'Kalam', cursive;
+}
+
+/* Content Section */
+.content {	
+	border-radius: 0 10px 0 0;	
+	color: #000000;
+	padding: 20px;
+	background: url('img/bgimage1.jpg') no-repeat;
+	background-size: cover;
+    background-clip: border-box;
+}
+
+.innerContent {
+	background: #F1F3FA;
+    -moz-box-shadow: -1px 1px 6px 0px #BDBDBD;
+    -webkit-box-shadow: -1px 1px 6px 0px #BDBDBD;
+    box-shadow: -1px 1px 6px 0px #BDBDBD;
+    height: 100%;
+    border-radius: 10px;
+    font-family: 'Roboto', sans-serif;
+    font-size: 24px;
+}
+
+/* Footer Section */
+.footerContainer {
+	padding: 0 15px;
+}
+
+footer {
+    text-align: center;
+    background: #4CAF50;
+    color: #FFFFFF;
+}
+
+/* box-shadow effect */
+.boxShadow
+{
+  	position:relative;
+    -webkit-box-shadow:0 1px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+       -moz-box-shadow:0 1px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+            box-shadow:0 1px 20px rgba(0, 0, 0, 0.3), 0 0 40px rgba(0, 0, 0, 0.1) inset;
+}
+.boxShadow:before, .boxShadow:after
+{
+	content:"";
+    position:absolute;
+    z-index:-1;
+    -webkit-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    -moz-box-shadow:0 0 20px rgba(0,0,0,0.8);
+    box-shadow:0 0 20px rgba(0,0,0,0.8);
+    top:10px;
+    bottom:10px;
+    left:0;
+    right:0;
+    -moz-border-radius:100px / 10px;
+    border-radius:100px / 10px;
+}
+.boxShadow:after
+{
+	right:10px;
+    left:auto;
+    -webkit-transform:skew(8deg) rotate(3deg);
+       -moz-transform:skew(8deg) rotate(3deg);
+        -ms-transform:skew(8deg) rotate(3deg);
+         -o-transform:skew(8deg) rotate(3deg);
+            transform:skew(8deg) rotate(3deg);
+}
+
+
+/* #################################### */
+
+
