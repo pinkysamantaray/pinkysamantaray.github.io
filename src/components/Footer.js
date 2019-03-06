@@ -8,7 +8,7 @@ class Footer extends Component {
           <li className="nav-item">
             <small>
               <span className="nav-link disabled">
-                All rights reserved. 2019
+                All rights reserved. 2019 <i class="far fa-copyright" />
               </span>
             </small>
           </li>

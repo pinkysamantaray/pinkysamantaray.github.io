@@ -59,7 +59,7 @@ class Content extends Component {
   render() {
     console.log(this.textInput);
     return (
-      <div className="row bodyContainer mb-4 mt-4">
+      <div className="row bodyContainer mb-4 mt-4 px-4">
         <div className="col-8">
           <div className="card">
             <div className="card-body">
@@ -127,7 +127,9 @@ class Content extends Component {
           <div className="card">
             <div className="card-body">
               <div className="sidebarContainer">
-                <h5 className="card-title">About Me!</h5>
+                <h5 className="card-title">
+                  About Me! <i class="fas fa-user-secret" />
+                </h5>
                 <p className="card-text">
                   Having worked in the Software industry, through various phases
                   of the software development life cycle, I have learnt to be
@@ -138,13 +140,13 @@ class Content extends Component {
                   href="https://www.linkedin.com/in/pinkysamantaray/"
                   className="btn btn-primary mr-2"
                 >
-                  LinkedIn
+                  <i class="fab fa-2x fa-linkedin-in" />
                 </a>
                 <a
                   href="https://github.com/pinkysamantaray"
                   className="btn btn-primary mr-2"
                 >
-                  GitHub
+                  <i class="fab fa-2x fa-github" />
                 </a>
               </div>
             </div>

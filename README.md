@@ -10,10 +10,8 @@ Prettier has already been added to package.json as a devDependencie.
 ## nginx
 
 nginx.conf sets the correct configuration for the react app to work.
-This might change in the future (edit this README when this happens =) )
 
 When the docker image is created, nginx will be pulled from the docker library and added to the image using this configuration <br>
-**-- STILL UNKNOWN WHETHER THIS IS NEEDED. FOR NOW IT IS ADDED TO MAKE SURE REACT WORKS AS A SELF-CONTAINED APP --**
 
 ## Available Scripts
 

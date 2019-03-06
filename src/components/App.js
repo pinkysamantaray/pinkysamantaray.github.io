@@ -7,10 +7,7 @@ class App extends Component {
   render() {
     return (
       <div className="appContainer container-fluid">
-        <div className="row">
-          <Header />
-        </div>
-
+        <Header />
         <Content />
         <Footer />
       </div>

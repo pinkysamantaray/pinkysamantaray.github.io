@@ -35,14 +35,19 @@ code {
   background-color: rgba(255, 255, 255, 0.75) !important;
   margin-bottom: 0 !important;
   border-radius: 0rem;
+  padding: 2rem 4rem;
+}
+
+.headerText {
+  font-size: 20px;
 }
 
 .headerDesc {
   border: 2px solid #efefef;
   border-radius: 5px;
-  margin: 4rem 2rem 0;
+  margin: 2rem 0 0;
   padding: 2rem 1rem;
-  background: #efefef;
+  background: rgba(239, 239, 239, 0.5);
 }
 
 /* Footer CSS */
