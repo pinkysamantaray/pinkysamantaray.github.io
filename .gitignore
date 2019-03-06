@@ -27,4 +27,3 @@ yarn-error.log*
 ./report.json
 .vscode/settings.json
 node_modules/
-build/
