@@ -11,7 +11,7 @@ class Header extends Component {
       <div className="row">
         <Parallax bgImage={image1} strength={500}>
           <div className="col-md-10 col-sm-12 mx-auto headerContainer">
-            <img src={PSLogo} alt="logo" className="logo" />
+            <div className="logoContainer d-none d-md-block d-lg-block"><img src={PSLogo} alt="logo" className="logo" /></div>
             <code className="display-4">
               Hello there&nbsp;
               <i className="fas fa-ghost" />
