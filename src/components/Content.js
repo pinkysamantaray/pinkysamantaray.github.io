@@ -59,97 +59,103 @@ class Content extends Component {
   render() {
     console.log(this.textInput);
     return (
-      <div className="row bodyContainer mb-4 mt-4 px-4">
-        <div className="col-8">
-          <div className="card">
-            <div className="card-body">
-              <div className="interactionContainer">
-                <div className="col">
-                  <div className="comment">
-                    ### Hit enter to select and Up/Down arrow keys to navigate
-                    ###
-                  </div>
-                  <div className="questionair">
-                    What do you want to know about me?{" "}
-                    <span className="blinking-cursor">|</span>
-                  </div>
-                  <div className="questionair">
-                    {" "}
-                    > Tech Skills{" "}
-                    <input
-                      id="techSkills"
-                      name="techSkills"
-                      type="hidden"
-                      value="techSkills"
-                      autoFocus={false}
-                      ref={this.setTextInputRef}
-                    />
-                  </div>
-                  <div className="questionair">
-                    {" "}
-                    > Work Experience{" "}
-                    <input
-                      id="workExperience"
-                      name="workExperience"
-                      type="hidden"
-                      value="workExperience"
-                      autoFocus={false}
-                    />
-                  </div>
-                  <div className="questionair">
-                    {" "}
-                    > Education{" "}
-                    <input
-                      id="education"
-                      name="education"
-                      type="hidden"
-                      value="education"
-                      autoFocus={false}
-                    />
-                  </div>
-                  <div className="questionair">
-                    {" "}
-                    > Contact{" "}
-                    <input
-                      id="contact"
-                      name="contact"
-                      type="hidden"
-                      value="contact"
-                      autoFocus={false}
-                    />
+      <div className="row bodyContainer mb-4 mt-4">
+        <div className="col-md-10 col-sm-12 mx-auto">
+          <div className="row">
+            <div className="col-md-9 col-sm-12">
+              <div className="card">
+                <div className="card-body">
+                  <div className="interactionContainer">
+                    <div className="col">
+                      <div className="comment">
+                        ### Hit enter to select and Up/Down arrow keys to navigate
+                        ###
+                      </div>
+                      <div className="questionair">
+                        What do you want to know about me?{" "}
+                        <span className="blinking-cursor">|</span>
+                      </div>
+                      <div className="questionair">
+                        {" "}
+                        > Tech Skills{" "}
+                        <input
+                          id="techSkills"
+                          name="techSkills"
+                          type="hidden"
+                          value="techSkills"
+                          autoFocus={false}
+                          ref={this.setTextInputRef}
+                        />
+                      </div>
+                      <div className="questionair">
+                        {" "}
+                        > Work Experience{" "}
+                        <input
+                          id="workExperience"
+                          name="workExperience"
+                          type="hidden"
+                          value="workExperience"
+                          autoFocus={false}
+                        />
+                      </div>
+                      <div className="questionair">
+                        {" "}
+                        > Education{" "}
+                        <input
+                          id="education"
+                          name="education"
+                          type="hidden"
+                          value="education"
+                          autoFocus={false}
+                        />
+                      </div>
+                      <div className="questionair">
+                        {" "}
+                        > Contact{" "}
+                        <input
+                          id="contact"
+                          name="contact"
+                          type="hidden"
+                          value="contact"
+                          autoFocus={false}
+                        />
+                      </div>
+                    </div>
                   </div>
                 </div>
               </div>
             </div>
-          </div>
-        </div>
-        <div className="col">
-          <div className="card">
+            <div className="col-md-3 col-sm-12">
+          <div className="card boxShadow">
             <div className="card-body">
-              <div className="sidebarContainer">
+              <div className="sidebarContainer ">
                 <h5 className="card-title">
-                  About Me! <i class="fas fa-user-secret" />
+                   
                 </h5>
                 <p className="card-text">
-                  Having worked in the Software industry, through various phases
-                  of the software development life cycle, I have learnt to be
-                  creative and productive and I want to pursue this passion to
-                  go ahead and to be the expert I want to be. <br />
+                      Thank you for visiting my profile. <span role="img" aria-label="icon">🚀</span>
                 </p>
+                <br />
                 <a
                   href="https://www.linkedin.com/in/pinkysamantaray/"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary mr-2"
                 >
-                  <i class="fab fa-2x fa-linkedin-in" />
+                  <i className="fab fa-2x fa-linkedin-in" />
                 </a>
                 <a
                   href="https://github.com/pinkysamantaray"
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="btn btn-primary mr-2"
                 >
-                  <i class="fab fa-2x fa-github" />
+                  <i className="fab fa-2x fa-github" />
                 </a>
               </div>
             </div>
+          </div>
+        </div>
           </div>
         </div>
       </div>
