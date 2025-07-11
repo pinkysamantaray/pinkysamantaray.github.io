@@ -49,7 +49,7 @@ export interface PortfolioData {
   };
   about: {
     title: string;
-    content: string;
+    content: string[];
   };
   skills: {
     title: string;

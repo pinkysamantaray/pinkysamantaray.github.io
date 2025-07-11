@@ -8,7 +8,14 @@ export const portfolioData: PortfolioData = {
   },
   about: {
     title: "About Me",
-    content: "Hello there! ✨ Nice to meet you! My name is Pinky Samantaray. ▪️ I am a frontend Engineer by passion. I work within Deloitte Consulting in the Financial Services & Consumer sector. I have over 10 years of experience solving complex problems by developing innovative, sustainable business and technology solutions. ▪️ I enjoy consulting for the opportunity, it gives me to work side-by-side with clients to co-design real solutions for their business and their people. ▪️ I am currently based in Amsterdam, focusing on designing and implementing large-scale business transformations. I am experienced across end-to-end transformations, starting with translating business strategy into capabilities and initiatives, all the way down to the detailed implementation and launch of 🆕 structures and products. ▪️ I enjoy applying a design approach to problem-solving, underpinned by placing the customer at the heart of everything I do. I am passionate about learning, exploring 🆕 cultures and ways of working. I am always looking for a 🆕 challenge.",
+    content: [
+      "Hello there! ✨ ",
+      "Nice to meet you! My name is Pinky Samantaray.",
+      "I am a frontend Engineer by passion. I work within Deloitte Consulting in the Financial Services & Consumer sector. I have over 10 years of experience solving complex problems by developing innovative, sustainable business and technology solutions.",
+      "I enjoy consulting for the opportunity, it gives me to work side-by-side with clients to co-design real solutions for their business and their people.",
+      "I am currently based in Amsterdam, focusing on designing and implementing large-scale business transformations. I am experienced across end-to-end transformations, starting with translating business strategy into capabilities and initiatives, all the way down to the detailed implementation and launch of 🆕 structures and products.",
+      "I enjoy applying a design approach to problem-solving, underpinned by placing the customer at the heart of everything I do. I am passionate about learning, exploring 🆕 cultures and ways of working. I am always looking for a 🆕 challenge.",
+    ],
   },
   skills: {
     title: "Skills",
