@@ -1,21 +1,19 @@
 import { useState, useEffect } from 'react';
 import { Sun, Moon } from 'lucide-react';
-import Sidebar from "./components/sidebar";
-import AboutMe from "./sections/about-me";
-import Skills from "./sections/skills";
-import Experiences from "./sections/experiences";
-import TechStacks from "./sections/tech-stacks";
-import Projects from "./sections/projects";
-import Education from "./sections/education";
-import LicensesCertificates from "./sections/licenses-certificates";
-import Recommendations from "./sections/recommendations";
-import Links from "./sections/links";
-import ContactMe from "./sections/contact-me";
+import Sidebar from './components/sidebar';
+import AboutMe from './sections/about-me';
+import Skills from './sections/skills';
+import Experiences from './sections/experiences';
+import TechStacks from './sections/tech-stacks';
+import Projects from './sections/projects';
+import Education from './sections/education';
+import LicensesCertificates from './sections/licenses-certificates';
+import Recommendations from './sections/recommendations';
+import Links from './sections/links';
+import ContactMe from './sections/contact-me';
 
 function App() {
-  const [isDarkMode, setIsDarkMode] = useState(
-    localStorage.getItem('theme') === 'dark'
-  );
+  const [isDarkMode, setIsDarkMode] = useState(localStorage.getItem('theme') === 'dark');
 
   useEffect(() => {
     if (isDarkMode) {
@@ -34,7 +32,10 @@ function App() {
   return (
     <div className="flex">
       <Sidebar />
-      <main id="cv-content" className="flex-1 ml-64 p-8 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100">
+      <main
+        id="cv-content"
+        className="flex-1 ml-64 p-8 bg-gray-200 dark:bg-gray-800 text-gray-900 dark:text-gray-100"
+      >
         <button
           onClick={toggleDarkMode}
           className="fixed top-4 right-4 p-2 rounded-full bg-gray-800 dark:bg-gray-200 text-gray-200 dark:text-gray-800"

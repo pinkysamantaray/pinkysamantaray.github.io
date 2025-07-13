@@ -1,0 +1,15 @@
+node_modules
+dist
+.vscode
+.DS_Store
+.vscode-test
+coverage
+.idea
+package-lock.json
+yarn.lock
+npm-debug.log
+yarn-error.log
+public
+build
+.vite
+.vitest
